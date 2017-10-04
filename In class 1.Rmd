@@ -1,0 +1,11 @@
+---
+title: "In-class Exercises - 1"
+output: html_document
+---
+
+```{r Adv}
+Advcsv <- read.csv("Advertising.csv", header=T, sep=",")
+head(Advcsv)
+write.table(Advcsv, "adv.txt", sep=",",quote=F)
+
+```
